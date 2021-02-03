@@ -1,9 +1,17 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>home</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+  <ion-grid class="features">
+    <ion-row>
+      <ion-col size-md='1' *ngFor="let feature of features">
+        <ion-card button='true'>
+          <ion-card-content>
+            <ion-card-title>{{feature.title}}</ion-card-title>
+            <ion-thumbnail>
+              <img [src]="feature.icon"/>
+            </ion-thumbnail>
+          </ion-card-content>
+        </ion-card>
 
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
