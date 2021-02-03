@@ -2,11 +2,13 @@
   <ion-slides pager="false">
     <ion-slide>
       <ion-text color="light">
-        <div class='element'>
+        <div #element class='element'>
           <img src="https://library.kissclipart.com/20190901/jzw/kissclipart-group-icon-games-icon-man-in-a-party-dancing-with-f8c03e53bfb34faf.png">
         </div>
-        <H1>PRA GENTE</H1>
-        <ion-button fill="outline" color="light" expand="block">ENTRAR</ion-button>
+        <H1>É PRA GENTE...</H1>
+        <ion-button fill="outline" color="light" expand="block" routerLink="/home">ENTRAR</ion-button>
+        <p>OU</p>
+        <ion-button (click)="toogleAnimation()" fill="outline" color="light" expand="block">PULAR?</ion-button>
       </ion-text>
     </ion-slide>  
   </ion-slides>
