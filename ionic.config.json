@@ -1,0 +1,7 @@
+{
+  "name": "PraGente",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
