@@ -14,6 +14,10 @@ const routes: Routes = [
     path:'',
     redirectTo:'/menu',
     pathMatch:'full'
+  },
+  {
+    path: 'truth',
+    loadChildren: () => import('./pages/truth/truth.module').then( m => m.TruthPageModule)
   }
 ];
 @NgModule({
