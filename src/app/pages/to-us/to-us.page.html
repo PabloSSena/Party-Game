@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-item routerLink='/home' detail='false'>
+    <ion-icon name="arrow-undo" size='large'></ion-icon>
+  </ion-item>
+  <ion-title>PRA GENTE</ion-title>
+</ion-header>
+
+<ion-content>
+<ion-slides pager='false'>
+  <ion-slide *ngFor='let feature of features'>
+    <div class='container'>
+      <ion-button fill="outline" color="light" expand="block" >VERDADE</ion-button>
+      <h1>OU</h1>
+      <ion-button fill="outline" color="light" expand="block">DESAFIO</ion-button>
+    </div>
+  </ion-slide>
+</ion-slides>
+</ion-content>

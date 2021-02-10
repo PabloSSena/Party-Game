@@ -14,6 +14,10 @@ export class HomePage{
     {
       title: "VERDADE OU DESAFIO PICANTE",
       icon: "https://st.depositphotos.com/1000345/2217/v/600/depositphotos_22170357-stock-illustration-pepper-in-open-mouth.jpg"
-    } 
+    },
+    {
+      title: "PRA GENTE",
+      icon: "../../assets/icons/teste.jpg"
+    },
   ]
 }

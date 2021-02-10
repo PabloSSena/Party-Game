@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'truth',
     loadChildren: () => import('./pages/truth/truth.module').then( m => m.TruthPageModule)
+  },
+  {
+    path: 'to-us',
+    loadChildren: () => import('./pages/to-us/to-us.module').then( m => m.ToUsPageModule)
   }
 ];
 @NgModule({
