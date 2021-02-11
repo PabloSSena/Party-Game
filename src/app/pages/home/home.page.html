@@ -1,8 +1,10 @@
 <ion-content>
   <ion-grid class="features">
     <ion-row>
-      <ion-col size-md='2' *ngFor="let feature of features">
-        <ion-card button='true' routerLink='/truth'>
+      <ion-col *ngFor="let feature of features">
+        <ion-card 
+          button='true'
+          routerLink='/to-us'>
           <ion-card-content>
             <ion-card-title>{{feature.title}}</ion-card-title>
             <ion-thumbnail>

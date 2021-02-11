@@ -3,7 +3,18 @@ ion-content {
     text-align: center;
 }
 
+ion-card {
+    height: 25vh;
+    width: 35vw;
+}
+
+ion-card-title {
+    font-size: large;
+}
+
+
 ion-thumbnail {
+    margin-top: 5px;
     width: 100%;
     height: 100%;
 }

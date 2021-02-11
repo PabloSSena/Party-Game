@@ -9,10 +9,6 @@ ion-header {
     display: flex;
 }
 
-ion-title {
-    margin-left: 30px;
-}
-
 ion-slides {
     height: 90%;
     margin-top: 10%;
@@ -33,6 +29,13 @@ ion-button:first-child {
 }
 
 .container h1 {
+    font-family: 'Roboto';
+    color: white;
+
+    margin-top: 75%;
+}
+
+.container h4 {
     font-family: 'Roboto';
     color: white;
 }
