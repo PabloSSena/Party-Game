@@ -6,12 +6,11 @@
 </ion-header>
 
 <ion-content>
-<ion-slides pager='false'>
+<ion-slides pager='false' >
   <ion-slide *ngFor='let feature of features'>
     <div class='container'>
-      <ion-button fill="outline" color="light" expand="block" >VERDADE</ion-button>
-      <h1>OU</h1>
-      <ion-button fill="outline" color="light" expand="block">DESAFIO</ion-button>
+     <h1>{{feature.title}}</h1>
+     <h4>{{feature.challenge}}</h4>
     </div>
   </ion-slide>
 </ion-slides>
