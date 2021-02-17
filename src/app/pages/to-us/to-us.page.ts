@@ -120,6 +120,29 @@ export class ToUsPage implements OnInit {
       challenge:"SE NÃO QUISER BEBA 1 DOSE"
     },
     {
+      title: "REVELE QUAL SEU BRINQUEDO SEXUAL PREFERIDO?",
+      challenge:"SE NÃO QUISER RESPONDER BEBA 2 DOSES"
+    },
+    {
+      title: "EU NUNCA USARIA DADOS ERÓTICOS",
+    },
+    {
+      title: "DE 0 A 10 QUANTO VOCÊ ESTA COM VONTADE DE TRANSAR?",
+      challenge:"SE NÃO QUISER RESPONDER BEBA 2 DOSES"
+    },
+    {
+      title: "TOQUE SEU PARCEIRO(A) EM QUALQUER PARTE DO CORPO POR 1 MINUTO MAS COM UMA CONDIÇÃO, AONDE VOCÊ TOCAR NELE(A) ELE(A) TBM VAI TOCAR EM VC AO MESMO TEMPO ",
+      challenge:"SE NÃO QUISER BEBA 2 DOSES"
+    },
+    {
+      title: "DE UM BEIJO NO PESCOÇO DO SEU PARCEIRO(A)",
+      challenge:"SE NÃO QUISER BEBA 2 DOSES"
+    },
+    {
+      title: "DE BEIJOS NO PEITO DO SEU PARCEIRO(A)",
+      challenge:"SE NÃO QUISER BEBA 2 DOSES"
+    },
+    {
       title: "SE ESTIVEREM NA RUA E COM ROUPA VÃO DO LADO DE FORA DO CARRO PARA BEIJAR, SE NÃO ESTIVEREM SE BEIJEM AONDE ESTÃO POR NO MINIMO 1 MINUTO",
     },
  
