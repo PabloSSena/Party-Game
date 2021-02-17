@@ -40,6 +40,18 @@ export class ToUsPage implements OnInit {
       title: "EU NUNCA COMPREI UMA ROUPA PENSANDO QUE ELA SERIA BOA PRA UM DIA DE PUTARIA",
     },
     {
+      title: "EU NUNCA QUIS FICAR COM UM CASAL DE AMIGOS",
+    },
+    {
+      title: "EU NUNCA IRIA A UMA PRAIA DE NUDISMO",
+    },
+    {
+      title: "EU NUNCA FIQUEI COM GEMEOS",
+    },
+    {
+      title: "EU NUNCA ME MASTURBEI NO BANHO",
+    },
+    {
       title: "EU NUNCA BEIJEI ALGUEM QUE ALGUM AMIGO(A) MEU GOSTAVA",
     },
     {
@@ -143,7 +155,7 @@ export class ToUsPage implements OnInit {
       challenge:"SE NÃO QUISER BEBA 2 DOSES"
     },
     {
-      title: "SE ESTIVEREM NA RUA E COM ROUPA VÃO DO LADO DE FORA DO CARRO PARA BEIJAR, SE NÃO ESTIVEREM SE BEIJEM AONDE ESTÃO POR NO MINIMO 1 MINUTO",
+      title: "PARABENS VOCÊS CHEGARAM AO FIM DO JOGO AGORA SE ESTIVEREM NA RUA E COM ROUPA VÃO DO LADO DE FORA DO CARRO PARA BEIJAR, SE NÃO ESTIVEREM SE BEIJEM AONDE ESTÃO",
     },
  
   ]
